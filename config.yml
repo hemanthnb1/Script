@@ -1,0 +1,6 @@
+URL:
+  base: https://preetis-testvagrant.atlassian.net/
+  createIssue: https://preetis-testvagrant.atlassian.net/rest/api/2/issue
+  jql: rest/api/3/search?jql=created >= "2024-01-19 12:57" AND created <= "2024-01-23
+    12:57" OR updated >= "2024-01-19 12:57" AND updated <= "2024-01-23 12:57" order
+    by priority DESC,updated DESC
